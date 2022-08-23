@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@500;600;700;800&family=Signika+Negative:wght@300&display=swap");
+
+body {
+  background: url("./assets/pexels-maxyne-barcel-10402282 1.png"),
+    rgba(118, 118, 248, 0.7);
+  background-size: cover;
+  /* background-color: rgba(0, 0, 255, 0.7); */
+  margin: 20px 65px;
+  padding: 0;
+  outline: 0;
+}
+nav ul {
+  text-align: center;
+  margin-left: 300px;
+  /* justify-content: space-between; */
+}
+.navbar {
+  display: inline-flex;
+}
+
+.list {
+  display: inline-flex;
+  list-style-type: none;
+  margin-right: 170px;
+  padding: auto auto;
+}
+.list-item {
+  color: gold;
+  justify-content: space-between;
+  padding: 6px 18px;
+}
+.logo {
+  width: 108px;
+  height: auto;
+}
+.hero {
+  float: right;
+}
+.hero-heading {
+  color: gold;
+  margin-right: 150px;
+  margin-top: 22px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+  font-size: 94px;
+  width: 900px;
+  text-align: center;
+  line-height: 84px;
+  justify-content: flex-start;
+}
+.button-large {
+  background-color: crimson;
+  color: whitesmoke;
+  padding: 9px 18px;
+  text-align: center;
+  margin-left: 370px;
+  font-family: Montserrat;
+  border-color: crimson;
+  margin-top: -140px;
+}
+.bottom {
+  position: relative;
+  float: right;
+  width: 10px;
+  height: 10px;
+  margin-right: 220px;
+  margin-bottom: 38s0px;
+  padding-bottom: 0px;
+}
+.button-small {
+  background-color: crimson;
+  color: whitesmoke;
+  padding: 7px 20px;
+  text-align: center;
+  /* margin-left: 370px; */
+  font-family: Montserrat;
+  border-color: crimson;
+  float: left;
+  margin: 20px 50px;
+}
